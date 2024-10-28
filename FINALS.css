@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(ICONS/1ST.jpg);
+
+
+}
+
+
+
+header{
+    height: 70px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 70px;
+    height: 70px    ;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 10px solid rgb(51, 153, 153);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(101, 100, 100);
+}
+ul{
+    display: flex;
+}
+li{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+.navigation{
+    margin: 30px;
+}
+.body{
+    margin: 10px;
+    width: 1502.8px;
+    height: 648px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+}
+.b1{
+    margin: 30px;
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(51, 153, 153);
+    color: white;
+}
